@@ -215,7 +215,7 @@ $ make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- \
 $ cd ~/buildroot
 $ sudo rm -rf output/target/lib/modules/5.10.x-v8
 $ make -j4
-$ sudo cp rootfs.cpio ~/imagebuilder/rpi
+$ sudo cp output/images/rootfs.cpio.gz ~/imagebuilder/rpi
 ```
 
 ## 7. boot2.scr 생성
