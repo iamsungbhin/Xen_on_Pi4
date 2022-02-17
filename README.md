@@ -185,13 +185,6 @@ $ make menuconfig
         - URL of custom repository -> https://github.com/raspberrypi/linux
         - Custom repository version -> rpi-5.10.y
     + Target packages
-        - Development tools
-          > [ * ] gettext
-        - Filesystem and flash utilities    
-          > [ * ] dosfstools
-          > [ * ] mkfs.fat
-        - Networking applications    
-          > [ * ] bridge-utils
         - System tools
           > -*- util-linux - - - >   
           > [ * ] basic set   
